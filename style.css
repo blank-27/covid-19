@@ -1,7 +1,3 @@
-/* teal :
-    color:#035755; 
-    background: linear-gradient(245deg, #FFF1F4 9.91%, #FFFFFF 88.82%); */
-
 * {
     font-family: "Red Hat Display", sans-serif;
     margin: 0;
@@ -18,8 +14,6 @@ button,a {
 }
 
 body {
-    /* background-color: linear-gradient(245deg, #33151c, #FFFFFF ); */
-    /* background: linear-gradient(245deg, #c54661 9.91%, #ffffff); */
     background: linear-gradient(245deg, #fff6f8 9.91%, #FFFFFF 88.82%);
     background-size: cover;
     overflow-x: hidden;
@@ -47,7 +41,6 @@ header,footer{
     height: 13vh;
     margin: 0 auto;
     justify-content: space-between;
-    /* background-color: rgb(155, 195, 229); */
 }
 .logo{
     margin-left: .5em;
@@ -154,7 +147,7 @@ header,footer{
         text-align: center;
         flex-direction: column;
     }
-    .nav-links,.footer-links{
+    .contact,.footer-links img{
         display: none;
     }
 
@@ -298,6 +291,7 @@ header,footer{
     margin-top: 10vh;
 }
 
+
 /* symptomps */
 .symptomps-img{
     width: 60vw;
@@ -318,6 +312,8 @@ header,footer{
     margin-top: -15%;
     z-index: -1;
 }
+
+
 /* precautions */
 .precautions-img{
     margin: 0 auto;
@@ -358,6 +354,7 @@ header,footer{
     background-color: rgb(250, 86, 82, 0.15);
     border-radius: 50%;
 }
+
 
 /* MAP */
 .map .bottom{
@@ -407,6 +404,8 @@ header,footer{
     width: 12vw;
     padding: 1.5rem;
 }
+
+
 /* FOOTER */
 .foot-note{
     color: #415E56;
